@@ -64,7 +64,7 @@ public class GameUI {
                 currentClip.stop();
             }
 
-            File soundFile = new File("src/sounds/" + color.toLowerCase() + ".wav");
+            File soundFile = new File("src/SimonGame101/" + color.toLowerCase() + ".wav");
             if (!soundFile.exists()) {
                 statusLabel.setText("⚠️ Sound file not found: " + soundFile.getAbsolutePath());
                 return;
